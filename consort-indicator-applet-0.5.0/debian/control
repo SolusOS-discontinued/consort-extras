@@ -6,7 +6,7 @@ Uploaders: Andrew Starr-Bochicchio <a.starr.b@gmail.com>
 Build-Depends: debhelper (>= 7),
                cdbs (>= 0.4.41),
                libgtk-3-dev,
-               libpanel-applet-4-dev,
+               libpanel-applet-1-dev,
                gnome-doc-utils,
                libtool,
                intltool,
