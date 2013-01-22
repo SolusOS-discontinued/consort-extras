@@ -1,4 +1,4 @@
-debian/tmp/usr/lib/indicator-applet/indicator-applet
+debian/tmp/usr/lib/consort-indicator-applet/indicator-applet
 debian/tmp/usr/share/dbus-1/services/org.consort.panel.applet.IndicatorAppletFactory.service
 debian/tmp/usr/share/consort-panel/1.0/applets/org.ayatana.panel.IndicatorApplet.panel-applet
 debian/tmp/usr/share/icons

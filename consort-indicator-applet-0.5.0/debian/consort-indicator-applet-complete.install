@@ -1,3 +1,3 @@
-debian/tmp/usr/lib/indicator-applet/indicator-applet-complete
+debian/tmp/usr/lib/consort-indicator-applet/indicator-applet-complete
 debian/tmp/usr/share/dbus-1/services/org.consort.panel.applet.IndicatorAppletCompleteFactory.service
 debian/tmp/usr/share/consort-panel/1.0/applets/org.ayatana.panel.IndicatorAppletComplete.panel-applet
