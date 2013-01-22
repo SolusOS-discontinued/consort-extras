@@ -13150,7 +13150,7 @@ fi
 ###########################
 
 if test "x$with_localinstall" = "xyes"; then
-	APPLETDIR="${datadir}/gnome-panel/applets/"
+	APPLETDIR="${datadir}/consort-panel/applets/"
 	INDICATORDIR="${libdir}/indicators/2/"
 	INDICATORICONSDIR="${datadir}/indicator-applet/icons/"
 else

@@ -23,7 +23,7 @@ indicator-applet (0.4.92-0ubuntu3) precise; urgency=low
 indicator-applet (0.4.92-0ubuntu2) precise; urgency=low
 
   * debian/control
-    - Dropped depends for gnome-panel, anything that depends on 
+    - Dropped depends for consort-panel, anything that depends on 
       indicator-applet should already require a panel that can 
       use it (LP: #954939)
 
@@ -193,7 +193,7 @@ indicator-applet (0.4.3-0ubuntu1) maverick; urgency=low
 indicator-applet (0.4.2-0ubuntu3) UNRELEASED; urgency=low
 
   * debian/control: Add alternative dependencies to indicator-renderer, to
-    avoid pulling in gnome-panel and indicator-applet when using unity.
+    avoid pulling in consort-panel and indicator-applet when using unity.
     (LP: #595862)
 
  -- Martin Pitt <martin.pitt@ubuntu.com>  Wed, 23 Jun 2010 12:05:51 +0200
@@ -203,7 +203,7 @@ indicator-applet (0.4.2-0ubuntu2) maverick; urgency=low
   * debian/control
     - Bump build dep version of libpanel-applet2-dev 
       to >= 2.30.0-2ubuntu2 to pick up a patched header
-      needed to make sure gnome-panel and the applets 
+      needed to make sure consort-panel and the applets 
       don't pick up menu proxies
 
  -- Ken VanDine <ken.vandine@canonical.com>  Thu, 17 Jun 2010 15:41:33 -0400
@@ -213,7 +213,7 @@ indicator-applet (0.4.2-3) unstable; urgency=low
   * Fix FTBFS by passing --copy-dt-needed-entries to work around the changed
     default in gcc. Newer upstream version have a correct fix but in the mean
     time this should be enough (the new upstream version depends on
-    gnome-panel 2.32 which is not yet in Debian). Closes: #615733
+    consort-panel 2.32 which is not yet in Debian). Closes: #615733
 
  -- Raphaël Hertzog <hertzog@debian.org>  Sun, 20 Mar 2011 10:45:49 +0100
 
