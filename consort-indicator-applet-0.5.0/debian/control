@@ -39,7 +39,7 @@ Package: consort-indicator-applet-session
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         indicator-applet (= ${binary:Version})
+         consort-indicator-applet (= ${binary:Version})
 Recommends: indicator-session
 Conflicts: indicator-applet-sus, gdm (<< 2.27.90-0ubuntu1)
 Replaces: indicator-applet-sus, gdm (<< 2.27.90-0ubuntu1)
