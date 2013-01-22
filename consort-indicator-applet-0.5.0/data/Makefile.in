@@ -260,10 +260,10 @@ applet_DATA = $(applet_in_files:.panel-applet.in=.panel-applet)
 ##############################
 servicedir = $(datadir)/dbus-1/services
 service_in_files = \
-	org.gnome.panel.applet.IndicatorAppletFactory.service.in \
-	org.gnome.panel.applet.IndicatorAppletCompleteFactory.service.in \
-	org.gnome.panel.applet.IndicatorAppletAppmenuFactory.service.in \
-	org.gnome.panel.applet.FastUserSwitchAppletFactory.service.in
+	org.consort.panel.applet.IndicatorAppletFactory.service.in \
+	org.consort.panel.applet.IndicatorAppletCompleteFactory.service.in \
+	org.consort.panel.applet.IndicatorAppletAppmenuFactory.service.in \
+	org.consort.panel.applet.FastUserSwitchAppletFactory.service.in
 
 service_DATA = $(service_in_files:.service.in=.service)
 
