@@ -1,4 +1,4 @@
-Source: indicator-applet
+Source: consort-indicator-applet
 Section: gnome
 Priority: optional
 Maintainer: The Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>
@@ -20,7 +20,7 @@ Homepage: https://launchpad.net/indicator-applet
 Vcs-Bzr: http://bzr.debian.org/bzr/pkg-ayatana/indicator-applet/debian-new
 Vcs-Browser: http://bzr.debian.org/loggerhead/pkg-ayatana/indicator-applet/debian-new
 
-Package: indicator-applet
+Package: consort-indicator-applet
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends}
@@ -35,7 +35,7 @@ Description: GNOME panel indicator applet
  Currently this includes support for messaging applications in the
  indicator-messages package.
 
-Package: indicator-applet-session
+Package: consort-indicator-applet-session
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
@@ -50,7 +50,7 @@ Description: GNOME panel indicator applet with session related indicators
  This instance will only load the session menu which provides
  status changing, user choosing and session management.
 
-Package: indicator-applet-complete
+Package: consort-indicator-applet-complete
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends}
@@ -66,7 +66,7 @@ Description: GNOME panel indicator applet with all indicators
  This instance will load all indicators in a single panel
  applet.
 
-Package: indicator-applet-appmenu
+Package: consort-indicator-applet-appmenu
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends}
